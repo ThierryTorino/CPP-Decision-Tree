@@ -1,6 +1,7 @@
 #ifndef BT_H
 #define BT_H
 #include <string>
+using namespace std;
 typedef string treeEntry;
 
 class binaryTree

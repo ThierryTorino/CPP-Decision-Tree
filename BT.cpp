@@ -143,7 +143,7 @@ void binaryTree::insert(string pai, string fLeft, string fRight)
 {
     if (empty())
     {
-        //se a arvore estiver vazia, inicia criando uma nova
+        // se a arvore estiver vazia, inicia criando uma nova
         root = new treeNode;
         root->entry = pai;
 
