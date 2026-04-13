@@ -33,3 +33,21 @@ Os arquivos do projeto estão organizados da seguinte forma:
  ┣ 📜 driver.cpp         # Função main() que executa e testa a estrutura
  ┣ 📜 driver.exe         # Executável compilado (Windows)
  ┗ 📜 exemplo1.tree      # Arquivo de exemplo contendo os dados para popular a árvore
+````
+🚀 Como Compilar e Executar
+Caso queira compilar o código do zero na sua máquina, abra o terminal na pasta do projeto e utilize um compilador C++ (como o GCC/MinGW):
+
+1. Compilar o projeto:
+
+Bash
+g++ BT.cpp driver.cpp -o driver
+2. Executar o programa:
+
+No Windows:
+
+Bash
+./driver.exe
+No Linux/macOS:
+
+Bash
+./driver
